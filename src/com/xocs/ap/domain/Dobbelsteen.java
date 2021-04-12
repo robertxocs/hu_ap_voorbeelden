@@ -38,4 +38,11 @@ public class Dobbelsteen {
     public int getWaarde() {
         return waarde;
     }
+
+    @Override
+    public String toString() {
+        return "Dobbelsteen{" +
+                "waarde=" + waarde +
+                '}';
+    }
 }
