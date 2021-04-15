@@ -7,15 +7,17 @@ public class Fiets {
 
     private String merk;
     private String type;
+    private String kleur;
 
     /**
      *
      * @param merk het
      * @param type
      */
-    public Fiets(String merk, String type) {
+    public Fiets(String merk, String type,String kleur) {
         this.merk = merk;
         this.type = type;
+        this.kleur = kleur;
     }
 
     /**
