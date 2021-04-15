@@ -45,4 +45,19 @@ public class Dobbelsteen {
                 "waarde=" + waarde +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Dobbelsteen that = (Dobbelsteen) o;
+
+        return waarde == that.waarde;
+    }
+
+    @Override
+    public int hashCode() {
+        return waarde;
+    }
 }
